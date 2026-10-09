@@ -25,6 +25,7 @@ Most of my commercial products and core business systems are private. The public
 | --- | --- | --- |
 | **不惑之心** | 传统文化与 AI 结合的命理产品。涵盖周易、六爻、梅花易数、八字、紫微斗数、合盘、运势与命理咨询 | [buhuo.xin](https://www.buhuo.xin/#/) |
 | **卜筮 bushi** | 面向多端应用的六爻、梅花易数与 64 卦排盘内核，提供七种语言实现 | [查看开源库](#卜筮-bushi-开源生态) |
+| **大六壬 · 小六壬 · 奇门遁甲** | 新开源的三组排盘引擎，均提供七种语言的仓库 | [查看开源库](#大六壬-小六壬-奇门开源生态) |
 | **StockSniper** | 面向 A 股研究的策略执行、信号筛选、数据质量、回测与结果追踪系统 | [在线工作台](https://facai.stackbang.com/) · [社区版](https://github.com/EriconYu/stocksniper) |
 
 ## 核心能力
@@ -61,6 +62,18 @@ Most of my commercial products and core business systems are private. The public
 | Swift | [bushi4swift](https://github.com/EriconYu/bushi4swift) |  |  |
 
 当前公开能力包括：64 卦排盘、本卦/互卦/变卦、六爻纳甲、六亲、世应、伏藏、六神、时间/数字/随机/手摇起卦，以及统一的跨语言回归案例。
+
+## 大六壬 · 小六壬 · 奇门开源生态
+
+这三组独立排盘引擎也已开源，分别提供 TypeScript、Python、Go、Java、Kotlin、Dart 与 Swift 仓库。小六壬提供各语言原生实现；大六壬和奇门以 TypeScript 为算法实现，其余语言包提供对应语言的 API，并在运行时依赖 Node.js 20+。
+
+| 方向 | 公开仓库 |
+| --- | --- |
+| **大六壬** | [TypeScript](https://github.com/EriconYu/daliuren4ts) · [Python](https://github.com/EriconYu/daliuren4py) · [Go](https://github.com/EriconYu/daliuren4go) · [Java](https://github.com/EriconYu/daliuren4java) · [Kotlin](https://github.com/EriconYu/daliuren4kotlin) · [Dart](https://github.com/EriconYu/daliuren4dart) · [Swift](https://github.com/EriconYu/daliuren4swift) |
+| **小六壬** | [TypeScript](https://github.com/EriconYu/xiaoliuren4ts) · [Python](https://github.com/EriconYu/xiaoliuren4py) · [Go](https://github.com/EriconYu/xiaoliuren4go) · [Java](https://github.com/EriconYu/xiaoliuren4java) · [Kotlin](https://github.com/EriconYu/xiaoliuren4kotlin) · [Dart](https://github.com/EriconYu/xiaoliuren4dart) · [Swift](https://github.com/EriconYu/xiaoliuren4swift) |
+| **奇门遁甲** | [TypeScript](https://github.com/EriconYu/qimen4ts) · [Python](https://github.com/EriconYu/qimen4py) · [Go](https://github.com/EriconYu/qimen4go) · [Java](https://github.com/EriconYu/qimen4java) · [Kotlin](https://github.com/EriconYu/qimen4kotlin) · [Dart](https://github.com/EriconYu/qimen4dart) · [Swift](https://github.com/EriconYu/qimen4swift) |
+
+排盘计算与业务解读分离；具体接入方式和依赖以各仓库 README 为准。
 
 ## 开源与商业
 
